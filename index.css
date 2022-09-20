@@ -1,0 +1,26 @@
+@charset "UTF-8";
+body {
+	width: 100%;
+	margin: 0;
+	background-color: #000000;
+}
+h1{ color: #ffffff; }
+button{
+	height: 2.2em;
+	width: 5.5em;
+	border: none;
+	color: #ffffff;
+}
+button:hover{ cursor: pointer; }
+.start-btn{background-color: green;}
+.pause-btn{background-color: grey;}
+.stop-btn{background-color: red;}
+
+@media all and (min-width: 1024px)
+{
+	body{
+		margin: auto; 
+		width: 100%;
+	}
+}
+
